@@ -27,11 +27,11 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "sass",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "src/app/presentation/shared/icons/favicon.ico",
+              "src/app/presentation/shared/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/app/presentation/shared/global_styles/styles.sass"
             ],
             "scripts": []
           },
@@ -95,11 +95,11 @@
             "karmaConfig": "karma.conf.js",
             "inlineStyleLanguage": "sass",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "src/app/presentation/shared/icons/favicon.ico",
+              "src/app/presentation/shared/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/app/presentation/shared/global_styles/styles.sass"
             ],
             "scripts": []
           }

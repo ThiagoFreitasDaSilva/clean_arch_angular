@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@use "sass:math"
+
+@mixin theme($param: red)
+    background-color: $param
+    font-size: 50px
+    color: white
+
+%extended-theme
+    background-color: blue
+    font-size: 20px 
+
+
+$paragraph: blue
+
+p 
+   color: $paragraph
+
+h1
+   @include theme
+
+h1.message
+    @extend  %extended-theme
+
+.soma
+    font-size: 2px * 2
